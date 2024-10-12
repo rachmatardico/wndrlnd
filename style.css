@@ -17,11 +17,18 @@ body {
 
 /* Styling for navbar */
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 	display: flex;
     padding: 0 5vw;
     height: 10vh;
 	margin: auto;
     align-items: center;
+    background-color: white;
+    opacity: .9;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.05);
 }
 
 .logo-container h4 {
@@ -53,7 +60,7 @@ nav {
 }
 
 .nav-link {
-    color: rgb(89, 89, 89);
+    color: #000;
     text-decoration: none;
 }
 
@@ -110,7 +117,7 @@ nav {
 /* Header styling */
 .container-header {
     width: 90%;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .container-header .header-text {
@@ -197,6 +204,9 @@ nav {
 }
 
 @media screen and (max-width: 567px) {
+    .container-header {
+        margin: 100px auto;
+    }
     .container-header .header-text {
         display: flex;
         flex-direction: column;
@@ -243,18 +253,21 @@ nav {
         flex-direction: column;
         align-items: center;
         z-index: 2;
-        background-color: #995eed;
+        background-color: #ffffff;
         transition: 1s;
         opacity: 0;
+        padding: 100px 0;
+        box-shadow: 0 2px 5px 0 #aaa;
     }
 
     nav .nav-links .nav-link{
-        color: white;
+        color: #000;
         font-weight: 500;
+        font-size: 20px;
     }
 
     nav ul.slide {
-        opacity: 0.8;
+        opacity: 1;
         transform: translateX(0);
     }
 }
