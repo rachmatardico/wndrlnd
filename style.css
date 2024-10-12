@@ -181,9 +181,47 @@ nav {
 .img-header img:last-child {
     grid-area: picture-5;
 }
-
-
 /* End of Header styling */
+
+/* About us styling */
+.container-about-us {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.container-about-us .title-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-header {
+    max-width: 600px;
+}
+
+.container-about-us .title-container .title-header h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.container-about-us .title-container .title-header p {
+    font-size: 30px;
+}
+
+.title-container .stats {
+    display: flex;
+    font-size: 20px;
+    gap: 60px;
+    text-align: center;
+    line-height: 10px;
+    align-self: flex-end;
+}
+
+.stats .item p {
+    font-weight: 600;
+}
+
+/* The end of About us styling */
 
 /* Screen breakpoints layout styles */
 @media screen and (max-width: 1024px) {
