@@ -298,6 +298,43 @@ nav {
     }
     /* The end of header styling */
 
+    /* About us styling */
+    .container-about-us {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: -80px;
+    }
+    
+    .container-about-us .title-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .title-header {
+        max-width: 500px;
+    }
+    
+    .container-about-us .title-container .title-header h2{
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    
+    .container-about-us .title-container .title-header p {
+        font-size: 20px;
+    }
+    
+    .title-container .stats {
+        gap: 20px;
+        line-height: 20px;
+    }
+    
+    .stats .item {
+        font-size: 15px;
+    }
+    /* The end of about us styling */
+
     /* Navbar */
     .menu-toggle {
         display: flex;
