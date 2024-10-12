@@ -225,8 +225,85 @@ nav {
 .stats .item p {
     font-weight: 600;
 }
-
 /* The end of About us styling */
+
+/* Our Services */
+.container-our-services {
+    width: 90%;
+    margin: 100px auto;
+}
+
+.container-our-services .title {
+    text-align: center;
+}
+
+.container-our-services .title h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
+
+.container-our-services .title p {
+    color: #aaa;
+}
+
+.img-our-services {
+    max-width: 100%;
+    margin: 0px auto;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 200px;
+    grid-template-areas: 
+    "p1 p2"
+    "p1 p3";
+    gap: 15px;
+}
+
+.img-our-services .item {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: #e5e3e3;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.img-our-services h4 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+.img-our-services p {
+    font-size: 12px;
+}
+
+.img-our-services .item:first-child{
+    background-image: url(./img/green.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    grid-area: p1;
+}
+
+.img-our-services .item:nth-child(2){
+    background-image: url(./img/diving.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    grid-area: p2;
+}
+
+.img-our-services .item:last-child{
+    background-image: url(./img/aurora.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    grid-area: p3;
+}
+/* The end of Our Services styling */
 
 /* Screen breakpoints layout styles */
 @media screen and (max-width: 1024px) {
