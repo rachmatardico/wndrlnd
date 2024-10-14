@@ -607,6 +607,54 @@ nav {
     }
     /* The end of Our Services styling */
 
+    /* Destinations */
+    .container-destinations .title-container .title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .container-destinations .title-container .title h2 {
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    
+    .container-destinations .title-container .title h4 {
+        font-size: 25px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+
+    .items-container {
+        grid-auto-rows: 200px;
+        grid-template-areas: 
+        "p1 p1"
+        "p2 p3"
+        "p4 p4";
+    }
+
+    .items-container .item h4{
+        font-size: 20px;
+    }
+
+    .items-container .item p{
+        font-size: 13px;
+    }
+
+    .container-destinations a {
+        display: block;
+        text-align: center;
+    }
+
+    .items-container .item:nth-child(3) {
+        grid-area: p3;
+    }
+    .items-container .item:last-child {
+        grid-area: p4;
+    }
+
+    /* The end of Destinations styling */
+
     /* Navbar */
     .menu-toggle {
         display: flex;
