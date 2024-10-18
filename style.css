@@ -785,57 +785,27 @@ footer {
     /* The end of Destinations styling */
 
     /* Footer */
-    footer .footer-title h2 {
-        font-size: 25px;
+    footer {
+        padding: 30px 30px;
+        display: block;
     }
-    
-    .footer-title .info {
-        align-self: center;
-        font-weight: 600;
+
+    .form-footer h2{
+        font-size: 50px;
     }
-    
-    footer .navigations {
-        border-top: 2px solid #767876;
-        border-bottom: 2px solid #767876;
-        margin-bottom: 50px;
+
+    .form-footer a {
+        margin-top: 5px;
     }
-    
-    footer .navigations ul {
-        list-style-type: none;
-        display: grid;
-        grid-auto-columns: auto;
-        align-items: center;
-        text-align: center;
-        font-size: 13px;
+
+    .footer-title {
+        width: 100%;
     }
-    
-    footer .navigations ul li:nth-child(3) a {
-        font-size: 20px;
-        font-weight: 900;
-        color: #000;
-        grid-column: 1 / span 6;
-        grid-row: 1;
-    }
-    
-    footer .navigations ul li a {
-        text-decoration: none;
-        color: #767876;
-        font-weight: 600;
-    }
-    
-    footer .copyright {
+
+    .footer-info {
         display: flex;
-        justify-content: space-between;
-    }
-    
-    footer .copyright a {
-        text-decoration: none;
-        color: #767876;
-    }
-    
-    .terms {
-        display: flex;
-        gap: 10px;
+        margin-left: -50px;
+        font-size: 14px;
     }
     /* The end of Footer styling */
 
