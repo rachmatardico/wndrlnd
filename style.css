@@ -633,6 +633,9 @@ p>a {
     .footer-info {
         gap: 0;
     }
+    p.copyright {
+        font-size: 16px;
+    }
     /* The end of Footer styling */
 }
 
@@ -661,6 +664,9 @@ p>a {
 
     .footer-info {
         gap: 0;
+    }
+    p.copyright {
+        font-size: 16px;
     }
 /* The end of Footer styling */
 }
@@ -830,6 +836,10 @@ p>a {
         display: flex;
         margin-left: -50px;
         font-size: 14px;
+    }
+    
+    p.copyright {
+        font-size: 15px;
     }
     /* The end of Footer styling */
 
