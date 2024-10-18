@@ -491,20 +491,72 @@ nav {
 
 /* Footer */
 footer {
-    margin-top: 150px;
+    margin-top: 100px;
     background-color: #f9f9f9;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.copyright {
-    border-top: 3px solid #F2F2F0;
-    padding: 30px;
-    text-align: center;
-    margin-bottom: 0;
+.cta-footer {
+    display: flex;
+    flex-direction: column;
 }
 
-.copyright a {
+.form-footer h2{
+    font-size: 60px;
+    color: #aaa;
+    margin-bottom: 30px;
+}
+
+.form-footer h2 span{
+    color: #000;
+}
+
+.form-footer input {
+    outline: none;
+    border: none;
+    background-color: #f9f9f9;
+    border-bottom: 2px solid #767876;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.form-footer a {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 40px;
+}
+
+.footer-title {
+    width: 400px;
+    color: #767876;
+}
+
+.footer-info {
+    display: flex;
+    align-self: center;
+    gap: 150px;
+}
+
+.footer-info ul {
+    list-style-type: none;
+    line-height: 25px;
+}
+
+.footer-info ul li:first-child {
+    font-weight: 700;
     color: #323232;
 }
+
+.footer-info ul li a {
+    color: #323232;
+    text-decoration: none;
+    font-weight: 500;
+}
+
 /* The end of Footer styling */
 
 /* Screen breakpoints layout styles */
