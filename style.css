@@ -556,7 +556,6 @@ footer {
     text-decoration: none;
     font-weight: 500;
 }
-
 /* The end of Footer styling */
 
 /* Screen breakpoints layout styles */
@@ -594,6 +593,56 @@ footer {
         margin-bottom: 10px;
     }
     /* The end of about us styling */
+
+    /* Footer */
+    footer {
+        padding: 30px 30px;
+    }
+
+    .form-footer h2{
+        font-size: 50px;
+    }
+
+    .form-footer a {
+        margin-top: 5px;
+    }
+
+    .footer-title {
+        width: 100%;
+    }
+
+    .footer-info {
+        gap: 0;
+    }
+    /* The end of Footer styling */
+}
+
+@media screen and (max-width: 768px) {
+    /* Footer */
+    footer {
+        padding: 30px 30px;
+    }
+
+    .form-footer h2{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .form-footer a {
+        display: block;
+        margin-top: 5px;
+        text-align: center;
+        width: 25%;
+    }
+
+    .footer-title {
+        width: 100%;
+    }
+
+    .footer-info {
+        gap: 0;
+    }
+/* The end of Footer styling */
 }
 
 @media screen and (max-width: 576px) {
