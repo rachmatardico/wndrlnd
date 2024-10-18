@@ -494,6 +494,10 @@ footer {
     margin-top: 100px;
     background-color: #f9f9f9;
     padding: 30px 50px;
+    padding-bottom: 0;
+}
+
+.footer-container {
     display: flex;
     justify-content: space-between;
 }
@@ -556,6 +560,16 @@ footer {
     text-decoration: none;
     font-weight: 500;
 }
+
+p.copyright {
+    text-align: center;
+    border-top: 2px solid #c6c6c6;
+    padding-top: 15px;
+}
+
+p>a {
+    color: #767876;
+}
 /* The end of Footer styling */
 
 /* Screen breakpoints layout styles */
@@ -597,6 +611,7 @@ footer {
     /* Footer */
     footer {
         padding: 30px 30px;
+        padding-bottom: 0;
     }
 
     .form-footer h2{
@@ -621,6 +636,7 @@ footer {
     /* Footer */
     footer {
         padding: 30px 30px;
+        padding-bottom: 0;
     }
 
     .form-footer h2{
@@ -787,6 +803,10 @@ footer {
     /* Footer */
     footer {
         padding: 30px 30px;
+        padding-bottom: 0;
+    }
+
+    .footer-container {
         display: block;
     }
 
